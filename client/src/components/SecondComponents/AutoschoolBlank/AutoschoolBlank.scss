@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url("../../../images/NEW_AUTO_SKODA.jpg");
+  h1 {
+    font-family: "Rubik One", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, blue 33%, lightblue 66%, #8aa9d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0b2349;
+    display: table;
+    margin: 20px auto;
+  }
+  .main__content {
+    border: 2px solid lightgray;
+    margin: 15px;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(
+      circle farthest-corner at 100px 50px,
+      white,
+      darkgray
+    );
+  }
+  // .h1__box {
+  //   margin: 20px 0;
+  //   padding: 10px;
+  //   background-color: lightgray;
+  //   border-radius: 25px;
+  // }
+  .big__inp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main_big_inp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+  }
+  .but__div {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.big_main_inp {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.inp_text {
+  max-width: 200px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 18px;
+}
